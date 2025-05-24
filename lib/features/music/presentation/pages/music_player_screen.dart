@@ -6,7 +6,7 @@ import 'package:just_audio/just_audio.dart';
 
 class MusicPlayerScreen extends StatefulWidget {
   final Song song;
-  MusicPlayerScreen({Key? key, required this.song}) : super(key: key);
+  const MusicPlayerScreen({super.key, required this.song});
 
   @override
   State<MusicPlayerScreen> createState() => _MusicPlayerScreenState();
